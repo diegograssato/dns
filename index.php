@@ -31,7 +31,7 @@ if( null !== $HOST && null !== $IP ) {
     $NSPARAMS .= "send".PHP_EOL;
     $NSFILE = "/tmp/success.txt";
 
-    $WRITEFILE = fopen($NSFILE, 'r+');
+    $WRITEFILE = fopen($NSFILE, 'a');
     fwrite($WRITEFILE, $NSPARAMS);
     fclose($WRITEFILE);
 
