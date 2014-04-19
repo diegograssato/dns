@@ -1,0 +1,9 @@
+vendor/*
+data/*
+log/*
+data/cache/*
+.vagrant
+.idea
+.idea/*
+composer.lock
+composer.phar
