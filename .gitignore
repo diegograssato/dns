@@ -6,4 +6,3 @@ data/cache/*
 .idea
 .idea/*
 composer.lock
-composer.phar
